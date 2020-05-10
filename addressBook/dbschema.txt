@@ -1,0 +1,13 @@
+CREATE TABLE ADDRESSBOOK
+(
+	name VARCHAR(55) NOT NULL,
+	phno VARCHAR(10) NOT NULL,
+	address VARCHAR(255),
+	dob Date NOT NULL,
+	gender VARCHAR(1) NOT NULL,
+	details VARCHAR(255)
+);
+
+insert into ADDRESSBOOK(name,phno,address,dob,gender,details)values('Subha','8017591757','Shyambazar','1998-09-28','m','prog');
+
+Update ADDRESSBOOK set name=Anamika,address=Tripura,dob=1998-08-08,details=Dreawing,gender=f where phno=123
